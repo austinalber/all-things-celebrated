@@ -8,8 +8,8 @@ const About = props => {
   return (
     <div className="parent-div">
       <div className="top-div">
-        <p style={{ fontFamily: 'Gloria Hallelujah' }}>Korgi</p>
-        <p style={{ fontFamily: 'Reenie Beanie', fontSize: '30px'}}>Though she be but little, she is fearless</p>
+        <p style={{ fontFamily: 'Gloria Hallelujah' }}>All Things Celebrated</p>
+        <p style={{ fontFamily: 'Reenie Beanie', fontSize: '30px'}}>A Lake Mary Botique</p>
       </div>
       
         <div className="bottom-div" style= {{ margin: '0 150px', lineHeight: '45px'}}>
@@ -27,11 +27,8 @@ const About = props => {
             Remember, it’s less of what we see but more of how we see things.
           </p>
           <Link to="/sign-up">
-            <button className="join-btn" type="button" style={{ fontFamily: 'Kranky', fontSize: '25px'}}>Join</button>
+            <button className="join-btn" type="button" style={{ fontSize: '25px'}}>Etsy</button>
           </Link>
-        </div>
-        <div className="background-div">
-          <img className="background-img" alt="background" src={background}/>
         </div>
     </div>
   );
