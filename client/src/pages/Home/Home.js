@@ -17,7 +17,11 @@ const About = props => {
           <p style={{ fontFamily: 'Gloria Hallelujah', fontSize: '20px'}}>
             {/* Intro letter for store */}
           </p>
-            <button onClick={event => window.location.href="www.youtube.com"} className="join-btn" type="button" style={{ fontSize: '25px'}}>Etsy</button>
+          <div className="item-showcase">
+
+          </div>
+
+          <button onClick={event => window.open('https://etsy.com/shop/AllThingsCelebrated', '_blank')} className="join-btn" type="button" style={{ fontSize: '25px'}}>Etsy</button>
         </div>
     </div>
   );
